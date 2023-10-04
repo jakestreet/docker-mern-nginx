@@ -1,0 +1,4 @@
+projecttype: npm
+prebuildcmd: npm install
+buildcmd: npm run build
+outputpath: ./artifact

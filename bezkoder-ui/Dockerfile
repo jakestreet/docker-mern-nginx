@@ -14,6 +14,7 @@ RUN unzip *
 FROM nginx:1.17.0-alpine
 
 COPY --from=build-stage /bezkoder-ui/artifact/build /usr/share/nginx/html
+COPY ./nginx/default.conf /etc/nginx/conf.d/
 EXPOSE $REACT_DOCKER_PORT
 
 CMD nginx -g 'daemon off;'

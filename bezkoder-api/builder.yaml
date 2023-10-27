@@ -1,2 +1,4 @@
 projecttype: npm
 outputpath: ./artifact
+docker:
+  - registry: 'us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo'

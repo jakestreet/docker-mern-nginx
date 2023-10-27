@@ -1,0 +1,47 @@
+dockerbuild:
+  projectname: bezkoder-api
+  projecttype: Npm
+  artifactname: artifact_1697223474.zip
+  artifactchecksums: {}
+  artifactlocation: ./artifact
+  logslocation: /bezkoder-api/builder/bezkoder-api_1697223474/logs/logs.json
+  username: root
+  homedir: /root
+  ip: 172.17.0.2
+  starttime: Friday, 13-Oct-23 18:57:54 UTC
+  endtime: Friday, 13-Oct-23 18:57:59 UTC
+  giturl: ""
+  mastergithash: undefined
+  branchname: ""
+  buildid: 7d52a4eb3
+dockerimagetag:
+  projectname: bezkoder-api
+  projecttype: Npm
+  artifactname: ""
+  artifactchecksums: {}
+  artifactlocation: ./artifact
+  logslocation: E:\Code\docker-mern-nginx\bezkoder-api/builder_data/bezkoder-api_1697223474/logs/logs.json
+  username: stree
+  homedir: C:\Users\stree
+  ip: 192.168.0.107
+  starttime: Friday, 13-Oct-23 18:57:54 UTC
+  endtime: Friday, 13-Oct-23 18:57:59 UTC
+  giturl: https://github.com/KatieHarris2397/docker-mern-nginx.git
+  mastergithash: 55f208db4a1b2a103e304718352e0afec4cc0b21
+  branchname: ""
+projectname: bezkoder-api
+projecttype: Npm
+username: JAKE-DESKTOP\stree
+starttime: Friday, 13-Oct-23 18:57:54 UTC
+endtime: Friday, 13-Oct-23 18:57:59 UTC
+giturl: https://github.com/KatieHarris2397/docker-mern-nginx.git
+mastergithash: 55f208db4a1b2a103e304718352e0afec4cc0b21
+buildid: 7d52a4eb3
+dockerrepositorytag: us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo/bezkoder-api:1697223474_7d52a4eb3_root_55f208d
+dockerrepository: us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo/bezkoder-api
+dockertags:
+- latest
+- 13_Oct_23_18H57M_UTC
+- 1697223474_7d52a4eb3
+- 1697223474_7d52a4eb3_root
+- 1697223474_7d52a4eb3_root_55f208d

@@ -1,0 +1,1 @@
+FROM mongodb:5.0.2

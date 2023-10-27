@@ -2,3 +2,5 @@ projecttype: npm
 prebuildcmd: npm install
 buildcmd: npm run build
 outputpath: ./artifact
+docker:
+  - registry: 'us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo'

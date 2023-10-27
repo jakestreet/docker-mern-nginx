@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar navbar-expand navbar-dark" style={{backgroundColor: "darkblue"}}>
           <Link to={"/tutorials"} className="navbar-brand">
-            bezKoder
+            dezKoder
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">

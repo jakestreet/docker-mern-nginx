@@ -1,6 +1,13 @@
+projectname: bezkoder-ui
+projectpath: ""
 projecttype: npm
+buildtool: ""
+buildfile: ""
 prebuildcmd: npm install
+configcmd: ""
 buildcmd: npm run build
+artifactlist: ""
 outputpath: ./artifact
+repobranch: ""
 docker:
-  - registry: 'us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo'
+  registry: us-east1-docker.pkg.dev/capture-by-auditdeploy/ad-demo

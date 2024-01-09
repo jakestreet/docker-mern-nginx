@@ -13,7 +13,7 @@ RUN unzip *
 # Stage 2
 FROM nginx:1.17.0-alpine
 
-COPY --from=build-stage /bezkoder-ui/artifact/build /usr/share/nginx/html
+COPY --from=build-stage /bezkoder-ui/artifact/build /usr/share/nginx/bezkoder-ui/html/bezkoder-ui
 COPY --from=build-stage /root/.builder /root/.builder
 COPY --from=build-stage /bezkoder-ui/builder /bezkoder-ui/builder/
 COPY ./nginx/default.conf /etc/nginx/conf.d/

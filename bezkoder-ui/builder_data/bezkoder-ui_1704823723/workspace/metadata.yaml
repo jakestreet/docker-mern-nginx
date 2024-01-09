@@ -1,0 +1,14 @@
+projectname: bezkoder-ui
+projecttype: Npm
+artifactname: ""
+artifactchecksums: ""
+artifactlocation: ./artifact
+logslocation: C:\Code\docker-mern-nginx\bezkoder-ui/builder_data/bezkoder-ui_1704823723/logs/logs.json
+username: stree
+homedir: C:\Users\stree
+ip: 192.168.1.155
+starttime: Tuesday, 09-Jan-24 18:08:43 UTC
+endtime: Tuesday, 09-Jan-24 18:08:55 UTC
+giturl: https://github.com/jakestreet/docker-mern-nginx.git
+mastergithash: 55f208db4a1b2a103e304718352e0afec4cc0b21
+branchname: ""

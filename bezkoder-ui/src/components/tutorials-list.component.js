@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import TutorialDataService from "../services/tutorial.service";
 import { Link } from "react-router-dom";
+import url from "../baseUrl";
+
 
 export default class TutorialsList extends Component {
   constructor(props) {
@@ -164,7 +166,7 @@ export default class TutorialsList extends Component {
               </div>
 
               <Link
-                to={"/tutorials/" + currentTutorial.id}
+                to={url + "/tutorials/" + currentTutorial.id}
                 className="badge badge-warning"
               >
                 Edit

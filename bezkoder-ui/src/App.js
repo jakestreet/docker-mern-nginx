@@ -7,22 +7,24 @@ import AddTutorial from "./components/add-tutorial.component";
 import Tutorial from "./components/tutorial.component";
 import TutorialsList from "./components/tutorials-list.component";
 
+import url from "./baseUrl";
+
 class App extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand navbar-dark" style={{backgroundColor: "darkblue"}}>
-          <Link to={"/tutorials"} className="navbar-brand">
-            dezKoder
+        <nav className="navbar navbar-expand navbar-dark bg-dark">
+          <Link to={url + "/tutorials"} className="navbar-brand">
+            bezKoder
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
-              <Link to={"/tutorials"} className="nav-link">
+              <Link to={url + "/tutorials"} className="nav-link">
                 Tutorials
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/add"} className="nav-link">
+              <Link to={url + "/add"} className="nav-link">
                 Add
               </Link>
             </li>
@@ -31,9 +33,9 @@ class App extends Component {
 
         <div className="container mt-3">
           <Switch>
-            <Route exact path={["/", "/tutorials"]} component={TutorialsList} />
-            <Route exact path="/add" component={AddTutorial} />
-            <Route path="/tutorials/:id" component={Tutorial} />
+            <Route exact path={[url + "/", url + "/tutorials"]} component={TutorialsList} id='root-route' />
+            <Route exact path={url + "/add"} component={AddTutorial} />
+            <Route exact path={url + "/tutorials/:id"} component={Tutorial} />
           </Switch>
         </div>
       </div>
